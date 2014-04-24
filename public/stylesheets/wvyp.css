@@ -1,28 +1,61 @@
 .wvyp {
-  padding: 10px 0;
-  margin: 80px auto;
-  border-bottom: 1px solid #CCC;
-  border-top: 1px solid #CCC;
-  width: 318px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 14px;
+	padding: 10px 0;
+	margin: 80px auto;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	width: 318px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 14px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column;
+	flex-flow: column;
 }
 
-.wvyp-count {
-  color: #0077b5;
+.wvyp .wvyp-count {
+	color: #0077b5;
+	-webkit-order: 2;
+	 order: 2;	
 }
 
-.search-count {
-  color: #333;
+.wvyp .search-count {
+	color: #333;
+	-webkit-order: 1;
+	order: 1;	
 }
 
 .large-number {
-  font-size: 31px;
-  float: left;
-  margin: 5px 12px 0 0;
+	font-size: 31px;
+	float: left;
+	margin: 5px 12px 0 0;
 }
 
-#wvypCount, #searchCount {
-  height: 28px;
+#wvypCount,#searchCount {
+	height: 28px;
+}
+
+.main {
+	width: 500px;
+	background: #EFEFEF;
+	height: 500px;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.main div {
+	background: #CCC;
+	margin-right: 10px;
+	-webkit-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.main div.primeiroDiv {
+	-webkit-order: 2;
+	order: 2;
+}
+
+.main div.segundoDiv {
+	-webkit-order: 1;
+	order: 1;
 }

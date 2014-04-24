@@ -8,9 +8,14 @@
     <div class="wvyp">
       <h2>Who's Viewed Your Profile</h2>
 
-      <div id="wvypCount"></div>
-      <div id="searchCount"></div>
+      <div class="wvyp-count" id="wvypCount"></div>
+      <div class="search-count" id="searchCount"></div>
     </div>
+    
+    <div class="main">
+      <div class="primeiroDiv">primeira</div>
+      <div class="segundoDiv">segunda</div>
+    </div>    
 
     @body
   </body>
